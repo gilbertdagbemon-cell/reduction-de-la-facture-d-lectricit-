@@ -1,0 +1,50 @@
+{
+  "name": "ecowatt-pro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "start": "vite start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"app/**/*.{ts,tsx,css}\""
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.2.2",
+    "@tanstack/react-router": "1.168.22",
+    "@tanstack/react-start": "1.167.41",
+    "@tanstack/react-store": "0.10.0",
+    "@tanstack/router-plugin": "1.167.22",
+    "@tanstack/store": "0.10.0",
+    "chart.js": "4.5.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "0.576.0",
+    "react": "19.2.5",
+    "react-chartjs-2": "5.3.1",
+    "react-dom": "19.2.5",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss": "4.2.2",
+    "vite-tsconfig-paths": "6.1.1"
+  },
+  "devDependencies": {
+    "@netlify/vite-plugin-tanstack-start": "1.3.12",
+    "@tailwindcss/vite": "4.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "eslint": "^9.20.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "lucide-react": "0.576.0",
+    "prettier": "^3.5.1",
+    "tailwindcss": "4.2.2",
+    "typescript": "5.9.3",
+    "rimraf": "6.1.3",
+    "vite": "7.3.2"
+  }
+}
